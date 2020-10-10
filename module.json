@@ -1,0 +1,35 @@
+{   
+   "name": "sw-fodbeginner",   
+   "title": "Star Wars Force & Destiny Beginner Game Adventure",   
+   "description": "Sharing Star Wars data across worlds",   
+   "author": "Christian Ovsenik",
+   "version": "1.0.1",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion":"0.7.5",
+   "url": "https://github.com/algnc/sw-fodbeginner",
+   "download": "https://github.com/algnc/sw-fodbeginner/archive/master.zip",
+   "manifest": "https://raw.githubusercontent.com/algnc/sw-fodbeginner/master/module.json",
+   "packs": [
+     {
+        "name": "sw-fodbeginner-scenes",
+        "label": "sw-fodbeginner-scenes",
+        "path": "packs/sw-fodbeginner-scenes.db",
+	"entity": "Scene",
+	"module": "sw-fodbeginner"
+     },
+     {
+	"name": "sw-fodbeginner-handouts",
+	"label": "sw-fodbeginner-handouts",
+	"path": "packs/sw-fodbeginner-handouts.db",
+	"entity": "JournalEntry",
+	"module": "sw-fodbeginner"
+     },
+     {
+	"name": "sw-fodbeginner-playlists",
+	"label": "sw-fodbeginner-playlists",
+	"path": "packs/sw-fodbeginner-playlists.db",
+	"entity": "Playlist",
+	"module": "sw-fodbeginner"
+     }
+   ]	
+}
